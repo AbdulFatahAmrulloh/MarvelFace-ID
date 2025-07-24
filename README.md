@@ -3,13 +3,13 @@
 
 ## Unlock Secure Identities with Lightning-Fast Recognition
 
-![GitHub last commit](https://img.shields.io/github/last-commit/AbdulFatahAmrulloh/MarvelFace-ID?style=for-the-badge)
-![Python](https://img.shields.io/badge/python-100.0%25-blue?style=for-the-badge)
-![Languages](https://img.shields.io/github/languages/count/AbdulFatahAmrulloh/MarvelFace-ID?style=for-the-badge)
+[![Last Commit](https://img.shields.io/github/last-commit/AbdulFatahAmrulloh/MarvelFace-ID)](https://github.com/AbdulFatahAmrulloh/MarvelFace-ID/commits/main)
+[![Python](https://img.shields.io/badge/python-100.0%25-blue)](https://www.python.org/)
+[![Languages](https://img.shields.io/github/languages/count/AbdulFatahAmrulloh/MarvelFace-ID)](https://github.com/AbdulFatahAmrulloh/MarvelFace-ID)
 
 Built with the tools and technologies:
-- ![Markdown](https://img.shields.io/badge/-Markdown-black?style=for-the-badge&logo=markdown)
-- ![Python](https://img.shields.io/badge/-Python-blue?style=for-the-badge&logo=python)
+- [Markdown](https://commonmark.org/)
+- [Python](https://www.python.org/)
 
 ---
 
@@ -54,19 +54,29 @@ This project requires the following dependencies:
 Build MarvelFace-ID from the source and install dependencies:
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/AbdulFatahAmrulloh/MarvelFace-ID.git
    ```
 
 2. **Navigate to the project directory**:
+
    ```bash
    cd MarvelFace-ID
    ```
 
 3. **Install the dependencies**:
+
    Using `conda`:
+
    ```bash
    conda env create -f conda.yml
+   ```
+
+4. **Activate the environment** (if not already activated):
+
+   ```bash
+   conda activate marvelface-id
    ```
 
 ### Usage
@@ -74,21 +84,35 @@ Build MarvelFace-ID from the source and install dependencies:
 Run the project with:
 
 Using `conda`:
+
 ```bash
-conda activate marvelface-id
 python main.py
 ```
 
----
+Replace `main.py` with the actual entry point script if it differs.
 
-## Testing
+### Testing
 
-To run tests:
+To run tests (if available):
 
 ```bash
 pytest
 ```
 
+Ensure that all necessary test dependencies are installed as specified in the `requirements.txt` or `conda.yml`.
+
 ---
 
-Anda dapat menambahkan bagian lain seperti "Contributing," "License," atau "Contact" jika diperlukan. Jika ada informasi tambahan dari gambar lainnya, silakan beri tahu agar saya bisa memperbarui README ini.
+## Contributing
+
+Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for details on our code of conduct and the process for submitting pull requests.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+---
+
+Feel free to customize this template further based on additional details or specific requirements you might have!
